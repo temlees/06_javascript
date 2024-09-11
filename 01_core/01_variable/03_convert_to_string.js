@@ -17,7 +17,7 @@ console.log(true+'');
 console.log(null+'');
 console.log(Infinity+'');
 
-console.log([] +'');
+console.log([5] +'');
 console.log(function(){}+'');
 
 console.log(typeof(true+''));

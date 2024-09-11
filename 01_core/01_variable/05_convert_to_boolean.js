@@ -9,6 +9,7 @@ Truthy - > true, Falsy -> false 로 암묵적 형변환
 */
 if(true) console.log("if(true)");
 //if(false) console.log("if(false)");
+//빈 문자열은 falsy
 if('') console.log("if('')"); 
 if('javascript') console.log("if('javascript')");
 if(null) console.log("if(undefined)");

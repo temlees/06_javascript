@@ -16,8 +16,8 @@
  console.log(1==='1');
 console.log(`1=='1' : ${1=='1'}`);
 console.log(`1==true : ${1==true}`);
-console.log(`1=='1' : ${1==='1'}`);
-console.log(`1==true : ${1===true}`);
+console.log(`1==='1' : ${1==='1'}`);
+console.log(`1===true : ${1===true}`);
 
 //숫자 0  문자'0' 빈 문자열 '', false 비교
 console.log(`0=='0' : ${0=='0'}`);

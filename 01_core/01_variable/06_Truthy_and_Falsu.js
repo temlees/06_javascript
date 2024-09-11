@@ -14,6 +14,8 @@ let test = {
     }
 };
 
+// 0은 falsy 값이다. 그래서 false
+//test가 null인지 확인
 if(test?.b){
     console.log("true");
 }else{

@@ -33,6 +33,7 @@ let obj2 = {
 console.log(obj2);
 
 
+
 //메소드 단축
 let dog = {
     name : "흰둥이",

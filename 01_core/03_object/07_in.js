@@ -16,6 +16,7 @@ console.log("test" in student);
 console.log("height" in student);
 
 //for in 반복문
+//이 부분은 student 객체의 모든 열거 가능한 속성 키를 key 변수에 순차적으로 할당하면서 반복합니다.
 for(let key in student){
     console.log(`key : ${key}`);
     console.log(`student[key] : ${student[key]}`);
