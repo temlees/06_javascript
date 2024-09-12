@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="available">
+        <li class="drink coffe">커피</li>
+        <li class="drink coke">콜라</li>
+        <li class="drink milk">우유</li>
+    </ul>
+    <ul id="unavailable">
+        <li class="drink soju">소주</li>
+        <li class="drink beer">맥주</li>
+    </ul>
+
+    <script>
+     const $drink = document.getElementsByClassName("drink");
+     console.log($drink);
+
+     const $unavailable = document.getElementById("unavailable");
+     console.log($unavailable.getElementsByClassName("drink"));
+    </script>
+    
+</body>
+</html>

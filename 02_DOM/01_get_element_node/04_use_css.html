@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>04.css 선택자를 이용한 요소노드 취득</h1>
+    <p>
+        document.querySelector()
+        메소드는 인수로 전달한 css 선택자를 만족시키는 
+        첫 번째 하나의 요소 노드를 탐색하여 반환한다. 
+        두개 있어도 위에것만
+    </p>
+    <div class="area">
+        <p>first</p>
+    </div>
+    <div class="area">
+        <p>second</p>
+    </div>
+
+    <script>
+        const $area = document.querySelector(".area");
+        console.log($area);
+        $area.style.backgroundColor = "red";
+
+        //제일 처음만나는 p태그 파란색으로 변경
+        const $first = document.querySelector("p");
+        console.log($first);
+        $first.style.backgroundColor ="blue";
+    </script>
+
+    <p>
+        document.querySelectorAll()
+        메소드는 인수로 전달한 css선택자를 만족시키는
+        모든 요소 노드를 탐색하여 반환한다
+        여러개의 요소 노드 객체를 갖는 객체인
+        nodeList를 반환한다.
+    </p>
+        <ul id="list">
+            <li class="drink">커피</li>
+            <li class="drink">콜라</li>
+            <li class="drink">사이다</li>
+            <li class="drink">맥주</li>
+            <li class="food">김치찌개</li>
+            <li class="food">된징찌개</li>
+        </ul>
+
+        <!-- ol은 순서 있는 태그 -->
+        <ol class="drink">
+            <li>하나</li>
+            <li>둘</li>
+            <li>셋</li>
+        </ol>
+
+        <script>
+            const $AllLi = document.querySelectorAll("li");
+            console.log($AllLi);
+
+            //ul태그의 자식만 호출
+            const $lists = document.querySelectorAll("ul>li");
+            console.log($lists);
+
+            const $classList = document.querySelectorAll(".drink");
+            console.log($classList);
+        </script>
+
+</body>
+</html>

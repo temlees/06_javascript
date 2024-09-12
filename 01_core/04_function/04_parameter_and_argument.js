@@ -9,7 +9,7 @@ return`${name}님 안녕하세요!`;
 }
 //console.log(hello("뽀삐"));
 
-let result = hello("홍길동")
+let result = hello("홍길동");
 console.log(result);
 
 

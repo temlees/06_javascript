@@ -12,5 +12,5 @@ let calc =  function add(a,b){
     return a+b;
 }
 console.log(calc(10,20));
-//함수명
+//함수명으로 부르지 못함
 //console.log(add(10,20);

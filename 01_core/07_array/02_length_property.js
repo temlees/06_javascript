@@ -19,3 +19,6 @@ console.log(arr);
 
 const arr2 = [null,2,4];
 console.log(arr2);
+
+const f = ['apple','banana']
+console.log(f.join());

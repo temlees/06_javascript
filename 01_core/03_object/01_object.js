@@ -13,6 +13,13 @@
 */
 
 // 객체 리터럴
+
+function print(person){
+    console.log(person.name)
+    console.log(person.age)
+    console.log(person.getInfo())
+}
+
 let student = {
     name : "유관순",
     age : 16,
@@ -20,6 +27,8 @@ let student = {
         return `${this.name}은 ${this.age}세 입니다.`;
     }
 };
+
+print(student);
 
 console.log(typeof student);
 console.log(student);

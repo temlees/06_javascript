@@ -37,7 +37,6 @@ console.log(arr[i]);
 console.log(typeof arr);
 
 //자바스크립트의 모든값이 객체의 프로퍼티 값이 될 수 있으므로
-
 const arr5 = [
     "홍길동",
     20,
