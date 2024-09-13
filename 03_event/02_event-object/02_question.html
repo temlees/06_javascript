@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        버튼 3개를 만들어서
+        1번을 누르면 안녕하세요가 빨간색으로 
+        2번을 누르면 안녕하세요가 hi로
+        3번을 누르면 hi 라는 alert 출력
+    -->
+    <h1 id="message">안녕하세요</h1>
+    <button id="btn1" >버튼1</button>
+    <button id="btn2">버튼2</button>
+    <button id="btn3">버튼3</button>
+
+    <script>
+        const $message  =document.getElementById("message");
+        const $btn1 = document.getElementById("btn1");
+        const $btn2 = document.getElementById("btn2");
+        const $btn3 = document.getElementById("btn3");
+
+       
+       btn1.onclick = ()=>{
+        $message.style.color ="red";
+       }
+       
+       btn2.onclick = ()=>{
+        $message.textContent="hi";
+       }
+
+       btn3.onclick = ()=>{
+        alert("hi");
+       }
+
+
+    </script>
+
+</body>
+</html>

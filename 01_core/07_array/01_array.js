@@ -10,19 +10,19 @@ console.log(arr);
 const arr2 = new Array();
 console.log(arr2);
 
-//전달된 인수가 1개이고 숫자인경우 lenght값이 인수인 배열 생성
+//전달된 인수가 1개이고 숫자인경우 length값이 인수인 배열 생성
 const arr3 = new Array(10);
 console.log(arr3);
 
 //전달된 인수가 2개 이상이거나 숫자가 아닌경우를 요소로 갖는 배열
-const arr4=  new Array(1,2,3);
+const arr4 = new Array(1,2,3);
 console.log(arr4);
 
 //3. Array.of 메소드
 //전달 된 인수를 요소로 갖는 배열 생성
 console.log(Array.of(10));
 console.log(Array.of(1,2,3));
-console.log(Array.of("hello","js"));
+console.log(Array.of("hello","js")); 
 
 //배열의 요소는 자신의 위치를 나타내는 인덱스를 가진다
 //요소에 접근할 때는 대괄호 표시법을 사용한다...

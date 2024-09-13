@@ -12,9 +12,9 @@ console.log(arr.length);
 //현재의 lenth보다 작은값을 주면 배열의 길이가 줄어든다
 arr.length =3;
 console.log(arr);
-
+console.log("-------");
 //현재 length보다 큰값을 할당하면
-arr.length =10;
+arr.length = 10;
 console.log(arr);
 
 const arr2 = [null,2,4];
